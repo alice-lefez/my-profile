@@ -1,0 +1,47 @@
+.titre
+{color: deeppink;}
+.paragraphe
+{color: rgb(128, 0, 128)}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white{
+font-weight: bold;
+border: 5px outset #000000;
+}
+.card-white{background-color: white;}
+.card-white{border-radius: 5px;}
+.card-white{box-shadow: rgba(0,0,0,0.1)}
+.card-white{padding: 1em}
+.img{border-radius: 50%;}
+.text-center {
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 2px solid lightgrey;
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+.button{display: block;
+ background-color: pink;
+border-radius: 10px;
+  border: 4px double hotpink;
+  color: pink;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;}
+
