@@ -1,47 +1,96 @@
-.titre
-{color: deeppink;}
-.paragraphe
-{color: rgb(128, 0, 128)}
+body {
+  background: #ecc4d7;
+  color: lightpink;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: unset;
+}
+
+h1 {
+  color: deeppink;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2{
+  color: deeppink;
+  font-size: 30px;
+  font-weight: lighter;
+  font-weight: 800;
+}
+
+a {
+  font-family: unset;
+  text-decoration: none;
+  color: #740938;
+  font-weight: 600;
+  font-size: 25px;
+}
+a:hover {
+  color: orange;
+}
+
+div {
+  background: #ecc4d7;
+  border: 2px;
+}
 .container {
-  width: 700px; /* set the width of your container */
-  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  width: 700px;
+  margin: 40px auto;
 }
-.card-white{
-font-weight: bold;
-border: 5px outset #000000;
+
+@media (max-width: 500px){
+  .container{
+    width: 400px;
+  }
 }
-.card-white{background-color: white;}
-.card-white{border-radius: 5px;}
-.card-white{box-shadow: rgba(0,0,0,0.1)}
-.card-white{padding: 1em}
-.img{border-radius: 50%;}
-.text-center {
+
+.card-white {
+  background-color: floralwhite;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
   text-align: center;
 }
-img {
+
+.img-circle{
   border-radius: 50%;
 }
-.card-white {
-  background: white;
-  padding: 30px;
-  border: 2px solid lightgrey;
-}
-.list-inline {
-  list-style: none; /* kill the bullet points */
-  padding-left: 0px; /* kill remaining padding left */
-}
-.list-inline > li {
-  display: inline; /* change list item behavior to inline */
-  padding: 0px 20px; /* add som left/right padding between list items */
-}
-.button{display: block;
- background-color: pink;
-border-radius: 10px;
-  border: 4px double hotpink;
-  color: pink;
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  cursor: pointer;}
 
+.btn-pink {
+  background-color: hotpink;
+  color: #740938;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-pink:hover {
+  background-color: floralwhite;
+  color: #740938;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #740938;
+}
+
+.list-inline i:hover {
+  color: floralwhite;
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
